@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+font-family: 'Inter', sans-serif;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+   height: 100vh;
+    width: 100%;
+    background: #E5E5E5;
+}
+center h1{
+width: 200px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+padding-top: 10px;
+}
+center p{
+    width: 70%;
+    text-align: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+color: #05000B;
+opacity: 0.7;
+margin-top: -15px;
+}
+.container{
+    background-color: rgb(255, 253, 253);
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.one{
+    position: relative;
+    left: 20px ;
+    color: #05000B;
+    margin-top: 20px;
+}
+.two{
+    width: 40%;
+    position: relative;
+    left: 20px ;
+    background-color: #ffffff;
+    z-index: 1;
+}
+.two h4{
+    color: #05000B;
+    font-family: 'Inter';
+    font-size: .8rem;
+    margin-top: 40px
+    
+}
+.two p{
+    color:#05000B;
+    font-family: 'Inter';
+    font-size: .5rem;
+    margin-top: -12px
+    
+}
+.three{
+  position: relative;
+  left: 165px;
+  top: -30px;
+  width: 60%;
+  z-index: 3;
+}
+.four{
+    font-family: 'Inter';
+    width: 90%;
+    text-align: center;
+font-style: italic;
+font-weight: 400;
+font-size: 7px;
+background-color: #ffffff;
+position: relative;
+  left: 20px;
+  padding-top: 60px;
+  top: -30px;
+  
+}
+.four p{
+    margin-left: -30px;
+}
+.five{
+    position: relative;
+    left: 30px;
+}
+.six{
+    position: relative;
+    left: 67%;
+    bottom: 230px;
+    width: 125px;
+}
+.sev{
+    
+    width: 5%;
+    position: relative;
+    left: 75%;
+    bottom: 290px;
+    width: 125px;
+}
+.sev img{
+    width: 15px;
+}
+.eig{
+    margin-top: -50px;
+}
+#vic{
+  position: relative;
+  right: 20px;
+  bottom: 30px;
+}
+#vi{
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+  }
+
+
+  @media (min-width: 769px) {
+    body{
+        height: 100vh;
+         width: 90%;
+         margin:20px auto;
+         background: #E5E5E5;
+     }
+     center h1{
+     width: 500px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 49px;
+     padding-top: 10px;
+     }
+     center p{
+         width: 70%;
+         text-align: center;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     color: #05000B;
+     opacity: 0.7;
+     margin-top: -15px;
+     }
+    
+     .container{
+        background-color: rgb(255, 253, 253);
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .one{
+        position: relative;
+        left: 150px ;
+        font-size: 2rem;
+        margin-top: 90px;
+    }
+    .two{
+        width: 373px;
+        position: relative;
+        left: 13% ;
+        background-color: #ffffff;
+        z-index: 2;
+        margin-top: 50px;
+        height: 15vh;
+    }
+    .two h4{
+        font-family: 'Inter';
+        font-size: 25px;
+        text-align: center;
+        padding-top: 40px;
+        padding-right: 170px;
+        
+    }
+.two p{
+    font-family: 'Inter' ;
+    font-size: 20px;
+    opacity: 0.8;
+    margin-top:-29px ;
+    padding-left: 30px;
+}
+.three{
+    position: relative;
+    left: 47%;
+    top: -30px;
+    width: 60%;
+    z-index: 3;
+  }
+  .three img{
+    width: 30px;
+  }
+  .four{
+      font-family: 'Inter';
+      width: 535px;
+      text-align: start;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #ffffff;
+  position: relative;
+    left: 13%;
+    padding-top: 60px;
+    top: -110px;
+    height: 20vh;
+    padding-left: 50px;
+    padding-top: -50px;
+    z-index: 1;
+    
+    
+  }
+  .four p{
+      margin-left: -30px;
+      margin-top: 80px;
+  }
+  .five{
+    position: relative;
+    left: 60%;
+   bottom: 380px; 
+}
+.five img{
+    width: 35%;
+}
+.six{
+    position: relative;
+    left: 85%;
+    bottom: 820px;
+    width: 125px;
+} 
+.six img{
+    width: 125px;
+}
+.sev{
+    width: 5%;
+    position: relative;
+    left: 88%;
+    bottom: 900px;
+    width: 125px;
+}
+.sev img{
+    width: 29px;
+}
+.eig img{
+position: relative;
+top: -600px;
+right: 70px;
+}
+#vic{
+    position: relative;
+    right: 90px;
+    top: -630px;
+   
+  }
+  #vi{
+      position: relative;
+      left: -50px;
+    top: -630px;
+    }
+  }
