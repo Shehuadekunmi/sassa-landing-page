@@ -220,30 +220,30 @@ position: relative;
   }
   .five{
     position: relative;
-    left: 60%;
+    left: 64%;
    bottom: 380px; 
 }
 .five img{
-    width: 35%;
+    width: 30%;
 }
 .six{
     position: relative;
-    left: 85%;
-    bottom: 820px;
+    left: 86%;
+    bottom: 720px;
     width: 125px;
 } 
 .six img{
-    width: 125px;
+    width: 90px;
 }
 .sev{
     width: 5%;
     position: relative;
     left: 88%;
-    bottom: 900px;
+    bottom: 790px;
     width: 125px;
 }
 .sev img{
-    width: 29px;
+    width: 25px;
 }
 .eig img{
 position: relative;
